@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+        <EditText
+                android:drawableStart="@drawable/search"
+                android:drawablePadding="5dp"
+                android:textSize="21sp"
+                android:id="@+id/search_country"
+                android:layout_width="match_parent"
+                android:layout_margin="20dp"
+                android:layout_height="45dp"
+                android:singleLine="true"
+                android:hint="Поиск"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:background="@drawable/background_design"
+                android:gravity="center_vertical"
+
+        />
+        <androidx.recyclerview.widget.RecyclerView
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/countriesList"
+                android:divider="@null"
+                android:layout_below="@id/search_country"
+        />
+
+
+
+
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

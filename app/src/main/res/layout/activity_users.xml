@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+    >
+        <EditText
+                android:drawableStart="@drawable/search"
+                android:drawablePadding="5dp"
+                android:textSize="21sp"
+                android:id="@+id/search_user"
+                android:layout_width="match_parent"
+                android:layout_margin="20dp"
+                android:layout_height="45dp"
+                android:hint="Поиск"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:background="@drawable/background_design"
+                android:gravity="center_vertical"
+
+        />
+        <ListView
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/usersList"
+                android:divider="@null"
+                android:layout_below="@id/search_user"
+        />
+        <ImageButton
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:textColor="@android:color/white"
+                android:id="@+id/buttonAddUser"
+                android:gravity="center"
+                android:layout_alignParentBottom="true"
+                android:layout_alignEnd="@id/usersList"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/background_design_ltgreen"
+                android:src="@drawable/add_ico"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside"
+                android:padding="13dp"
+
+        />
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

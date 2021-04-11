@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="TourBase" uuid="a4f20842-007c-4cb3-9313-449fc24b515d">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\baglen\IntelliJIDEAProjects\TourBase\app\src\main\assets\TourBase.db</jdbc-url>
+    </data-source>
+  </component>
+</project>

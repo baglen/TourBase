@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TourBase</string>
+    <string name="auth_header">Авторизация</string>
+    <string name="input_login">Введите логин</string>
+    <string name="input_password">Введите пароль</string>
+    <string name="login">Войти</string>
+
+</resources>
